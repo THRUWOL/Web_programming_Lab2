@@ -1,0 +1,17 @@
+.a, .b {
+	border: 1px solid blue;
+	width: 150px;
+	margin: 5px;
+	list-style-position:inside;
+}
+ol {
+	padding: 0;
+}
+
+table {
+	margin: 0 auto;
+}
+td, th {
+	border: 1px solid black;
+	padding: 20px;
+}

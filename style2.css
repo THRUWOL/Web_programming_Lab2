@@ -1,0 +1,44 @@
+/* 3 задание */
+div.hello p.test{ 
+	color: blue;
+}
+
+/* 4 задание */
+p.test,.hello{ 
+	color: green;
+}
+
+/* 5 задание */
+p>a, a.test{
+	color: yellow;
+	background-color: black;
+}
+
+/* 6 задание */
+#test b~i{
+	background-color: orange;
+}
+
+/* 7 задание */
+ul li > b {
+	color: red;
+}
+
+/* 8 Задание */
+h2.header {
+	color: red;
+}
+h3.header {
+	color:blue;
+}
+
+/* 9 задание */
+#test h2~p{
+	color:green;
+}
+
+/* 10 задание */
+P i:not(p > i) {
+	color: purple;
+}
+

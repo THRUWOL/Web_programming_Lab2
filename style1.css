@@ -1,0 +1,21 @@
+/* 1 Задание*/
+.a:hover{
+	background-color: green;
+	color: white;
+}
+.a:hover +li+li{
+	background-color: red;
+	color: white;
+}
+
+/* 2 Задание*/
+.b:hover{
+	background-color: green;
+	color: white;
+}
+.b:hover ~li:not(:last-child) {
+	background-color: red;
+	color: white;
+}
+
+
